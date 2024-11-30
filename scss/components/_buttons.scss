@@ -1,0 +1,22 @@
+.button {
+    padding: $base-padding;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  
+    &--primary {
+      background-color: $primary-color;
+      color: $light-color;
+    }
+  
+    &--secondary {
+      background-color: $secondary-color;
+      color: $light-color;
+    }
+  
+    &--danger {
+      background-color: $danger-color;
+      color: $light-color;
+    }
+  }
+  

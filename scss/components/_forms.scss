@@ -1,0 +1,17 @@
+form {
+    margin-bottom: $base-margin;
+  }
+  
+  input, textarea {
+    padding: $base-padding;
+    border: 1px solid $dark-color;
+    margin-bottom: $base-margin;
+  }
+  
+  input[type="submit"] {
+    background-color: $primary-color;
+    color: $light-color;
+    border: none;
+    padding: $base-padding;
+  }
+  

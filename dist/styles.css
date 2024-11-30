@@ -1,0 +1,136 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #34495e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial", sans-serif;
+  color: #3498db;
+}
+
+.button {
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.button--primary {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+.button--secondary {
+  background-color: #2ecc71;
+  color: #ecf0f1;
+}
+.button--danger {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #34495e;
+  margin-bottom: 1rem;
+}
+
+input[type=submit] {
+  background-color: #3498db;
+  color: #ecf0f1;
+  border: none;
+  padding: 0.75rem;
+}
+
+.text-primary {
+  color: #3498db;
+}
+
+.text-secondary {
+  color: #2ecc71;
+}
+
+.text-danger {
+  color: #e74c3c;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-3 {
+  margin: 1rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.border {
+  border: 1px solid #34495e;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-radius {
+  border-radius: 0.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-small {
+  font-size: 0.875rem;
+}
+
+.font-large {
+  font-size: 1.25rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
