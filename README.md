@@ -69,17 +69,17 @@ To customize the framework:
 ## **Project Structure**
 ```
 custom-css-framework/
-├── css/               # Compiled CSS files
-├── scss/              # Source Sass files
-│   ├── base/          # Base styles (e.g., typography, resets)
-│   ├── components/    # Component-specific styles (e.g., buttons, forms)
-│   ├── utilities/     # Utility classes (e.g., colors, spacing)
-│   ├── _variables.scss # Theme variables
-│   └── main.scss      # Main entry point for Sass compilation
-├── node_modules/      # Dependencies (ignored by .gitignore)
-├── .gitignore         # Files and folders to ignore in Git
-├── package.json       # Project metadata and dependencies
-├── README.md          # Project documentation
+├── css/               
+├── scss/              
+│   ├── base/          
+│   ├── components/    
+│   ├── utilities/     
+│   ├── _variables.scss 
+│   └── main.scss      
+├── node_modules/      
+├── .gitignore         
+├── package.json       
+├── README.md          
 ```
 
 ---
